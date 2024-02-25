@@ -1,4 +1,4 @@
-This is a simple chatbot project implemented in Python.
+This is a simple college chatbot project implemented in Python.
 
 ## Installation
 
