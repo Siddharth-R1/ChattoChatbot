@@ -1,0 +1,123 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "howdy", "good morning", "good afternoon", "good evening", "greetings", "yo", "hi there", "hello there", "what's up", "how's everything", "how's life", "sup", "wassup"],
+      "responses": [
+        "Hey! I am Chatto! A chatbot for Christ University! I can help you with admissions, contacts, and learning more about Christ University.",
+        "Hey! How can I help you? I can assist you with admissions, contacts, and providing information about Christ University.",
+        "Hey! Chatto at your service! Need assistance with admissions, contacts, or learning more about Christ University? Just ask!"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["how are you", "how's it going", "what's up", "how do you do", "how are things", "how are you doing", "how's life treating you", "how have you been", "what's happening", "what's new", "how's your day", "how's your day going", "how's everything going", "how's your life", "how's your day been", "how r u", "how's it", "hru"],
+      "responses": [
+        "I am good, what about you? Feel free to ask me anything about admissions, contacts, or learning more about Christ University.",
+        "I'm doing well, thank you! How about yourself? Need assistance with admissions, contacts, or information about Christ University?",
+        "Pretty good, thanks for asking! How are you? Let me know if you need help with admissions, contacts, or learning more about Christ University."
+      ]
+    },
+    {
+       "tag": "admissions",
+        "patterns": ["undergrad admissions", "postgrad admissions", "undergraduate admissions", "graduate admissions", "admiss", "admi", "admin", "admish"],
+        "responses": [
+          "Are you looking to learn more about Undergraduate Admissions or Postgraduate admissions?"
+        ]
+      },
+      {
+        "tag": "undergrad_courses",
+        "patterns": ["undergraduate", "undergrad", "undergrad courses", "undergrad degree", "undergrad course", "undergrad program", "bachelors", "bachelor's degree", "bachelor", "bachelors degree", "bachelors courses", "bachelors course", "bachelors program", "ug", "ug courses", "ug course", "ug program", "b.a", "b.sc", "bba", "b.com", "bca", "b.des", "b.ed", "law", "law degree", "law courses", "law program", "engineering", "engineering degree", "engineering courses", "engineering program", "architecture", "architecture degree", "architecture courses", "architecture program"],
+        "responses": [
+          "Here are the courses we have for Undergraduate Admissions:\n- Bachelors of Arts (BA/BA Hons)\n- Bachelors of Science (B.Sc/B.Sc Hons)\n- Bachelors of Business Administration (BBA/BBA Hons.)\n- Bachelors of Commerce (B.Com/B.Com Hons)\n- Bachelors of Computer Applications (BCA)\n- Bachelors of Design (B.Des)\n- Bachelors of Education (B.Ed)\n- Bachelors of Law (BALLB hons/BBALLB Hons)\n- Bachelors of Technology (B.Tech)\n- Bachelors of Architecture (B.Arch)"
+        ]
+      },
+      {
+        "tag": "postgrad_courses",
+        "patterns": ["postgraduate", "postgrad", "pg", "masters", "master's degree", "master", "masters degree", "masters courses", "masters course", "masters program", "ma", "m.sc", "mba", "m.com", "mca", "m.ed", "llm", "m.tech"],
+        "responses": [
+          "Here are the courses we have for Postgraduate Admissions:\n- Masters of Arts (MA)\n- Masters of Science (M.Sc)\n- Masters of Business Administration (MBA)\n- Bachelors of Commerce (M.Com/)\n- Bachelors of Computer Applications (MCA)\n- Bachelors of Education (M.Ed)\n- Bachelors of Law (LLM)\n- Bachelors of Technology (M.Tech)"
+        ]
+      },
+      {
+        "tag": "campus_info",
+        "patterns": ["campuses", "campus", "location", "branch", "branches", "centers", "centre"],
+        "responses": [
+          "Christ University boasts a network all over India:\n1. Christ (Deemed-to-be University) - Central Campus, Bengaluru, Karnataka\n2. Christ (Deemed-to-be University) - Bannerghatta Road Campus, Bengaluru, Karnataka\n3. Christ (Deemed-to-be University) - Kengeri Campus, Bengaluru, Karnataka\n4. Christ (Deemed-to-be University) - Yeshwanthpur Campus, Bengaluru, Karnataka\n5. Christ (Deemed-to-be University) - NCR Off-Campus, Delhi NCR\n6. Christ (Deemed-to-be University) - Lavasa Off-Campus, Pune, Maharashtra"
+        ]
+      },
+      {
+        "tag": "contact_info",
+        "patterns": ["contact", "contacts", "contact info", "contact information", "reach out", "contact us", "call", "email"],
+        "responses": [
+          "For admissions inquiries, you can contact the following campuses:\n1. Bangalore Central Campus\nThe Office of Admissions,\nCHRIST (Deemed to be University), Hosur Road,\nBengaluru - 560 029, Karnataka, INDIA\nPh. No: +91 92430 80800\nPh. No: +91 80 4012 9400\nIndian candidates: admissions@christuniversity.in\nNRI candidates: nri.admission@christuniversity.in\nInternational: isc.admission@christuniversity.in\n\n2. Bangalore Bannerghatta Road Campus\nCHRIST (Deemed to be University)\nHulimavu, Bannerghatta Road,\nBengaluru - 560 076, Karnataka, INDIA\nPh. No: 080 4655 1306\nEmail: admissions.bgr@christuniversity.in\n\n3. Bangalore Kengeri Campus\nCHRIST (Deemed to be University)\nKanmanike, Kumbalgodu, Mysore Road,\nBengaluru - 560 074, Karnataka, INDIA\nPh. No: +91 80 4012 9800, 9802, 9820\nEmail: admissions.kengeri@christuniversity.in\n\n4. Bangalore Yeshwanthpur Campus\nCHRIST (Deemed to be University)\nNagasandra, Near Tumkur Road,\nBengaluru 560 073, Karnataka, INDIA\nPh. No: +91 97422 44407\nEmail: admissions.yeshwanthpur@christuniversity.in\n\n5. Delhi NCR Campus\nCHRIST (Deemed to be University),\nMariam Nagar, Meerut Road,\nDelhi NCR Ghaziabad - 201003\nPh. No: 1800-123-3212\nEmail: admission.ncr@christuniversity.in\n\n6. Pune Lavasa Campus\nCHRIST (Deemed to be University),\nChrist University Road, 30 Valor Court,\nPO Dasve Lavasa, Mulshi, Pune - 412112, Maharashtra\nPh. No : 1800-123-2009,\nEmail: admission.lavasa@christuniversity.in"
+        ]
+      },
+      {
+        "tag": "christ_university_info",
+        "patterns": ["christ university", "christ unversity", "christ unvirsity", "chirst university", "chris university", "chrust university", "christ uni", "christ uni info", "more about christ university", "learn about christ university", "info on christ university", "about christ university", "christ university details", "christ univ", "chist university"],
+        "responses": [
+          "Vision\nExcellence and Service\n\nMission\nCHRIST (Deemed to be University) is a nurturing ground for an individual's holistic development to make effective contribution to the society in a dynamic environment.\n\nCore Values\nFaith in God\nMoral Uprightness\nLove of Fellow Beings\nSocial Responsibility\nPursuit of Excellence"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["bye", "goodbye", "see you later", "see ya", "bye bye", "take care", "farewell", "till next time", "catch you later", "adios", "peace out", "later", "gotta go", "have a good one", "until we meet again", "so long", "bye for now", "see you soon", "see you around", "cheerio", "ta-ta", "au revoir", "ciao", "sayonara"],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "Farewell! Take care!",
+          "Until next time! Bye!",
+          "Bye bye! See you later!",
+          "See you around! Goodbye!",
+          "Adios! Have a good one!",
+          "So long! Till next time!",
+          "Catch you later! Bye!",
+          "Peace out! Farewell!",
+          "Later! Take care!",
+          "Gotta go! Bye!",
+          "See ya! Have a great day!",
+          "Bye for now! Till next time!",
+          "Cheerio! Farewell!",
+          "Ta-ta! Until we meet again!",
+          "Au revoir! Bye!",
+          "Ciao! Take care!",
+          "Sayonara! See you around!",
+          "See you soon! Goodbye!",
+          "Take care! Bye bye!",
+          "Have a good one! So long!",
+          "Till we meet again! Farewell!",
+          "Goodbye! See you later!",
+          "Bye! Have a great day!",
+          "Until next time! Farewell!"
+        ]
+      },
+      {
+        "tag": "default",
+        "patterns": [],
+        "responses": [
+          "Sorry, I didn't understand. We'll work on understanding better.",
+          "Apologies, I didn't quite catch that. We're continuously improving.",
+          "Oops! It seems I didn't get that. We'll strive to understand better.",
+          "My apologies, I didn't understand what you said. We're learning!",
+          "I'm sorry, could you please repeat that? We're working on improving our understanding.",
+          "Ah, seems like I missed that. We'll get better at understanding!",
+          "Sorry, could you rephrase that? We're still learning!",
+          "Hmm, I didn't quite follow. We're working on our understanding.",
+          "Sorry about that, I didn't catch your meaning. We're learning as we go!",
+          "Oops! I didn't get that. We'll work on understanding it better.",
+          "My apologies, I didn't understand. We're constantly improving our understanding.",
+          "Sorry, it seems I didn't understand. We'll keep learning!",
+          "I'm sorry, I couldn't understand. We'll strive to improve our understanding.",
+          "Apologies, it seems I missed that. We're working on understanding better.",
+          "Sorry, I didn't quite catch that. We'll improve our understanding.",
+          "Hmm, it looks like I didn't understand. We'll work on it!",
+          "Oops! I didn't get that. We'll improve our understanding.",
+          "My apologies, I didn't understand. We'll work on it!",
+          "Sorry, could you please repeat that? We're still learning!",
+          "Ah, seems like I missed that. We'll strive to understand better."
+        ]
+      }
+      
+    ]
+  }
+  
